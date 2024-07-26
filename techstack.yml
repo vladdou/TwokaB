@@ -1,0 +1,933 @@
+repo_name: vladdou/TwokaB
+report_id: 3e720dcb1c0bc7756203d26282730e73
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-26T05:35:32+00:00'
+requested_by: jspuij
+provider: github
+branch: master
+detected_tools_count: 66
+tools:
+- name: ASP.NET
+  description: An open source web framework for building modern web apps and services
+    with .NET
+  website_url: https://www.asp.net/
+  version: '2.0'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/BlazorApp.Mac.csproj
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/BlazorApp.Mac.csproj
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-04-01 16:00:04.000000000 Z
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/vladdou/TwokaB
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/vladdou/TwokaB
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/vladdou/TwokaB
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/vladdou/TwokaB
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-02-29 22:17:39.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '3.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/sample/BlazorApp.Wpf/BlazorApp.Wpf.csproj
+  detection_source: sample/BlazorApp.Wpf/BlazorApp.Wpf.csproj
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-01 11:21:41.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '3.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/sample/BlazorApp.Wpf/BlazorApp.Wpf.csproj
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: CMake
+  description: An open-source system that manages the build process
+  website_url: http://www.cmake.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/vladdou/TwokaB
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/src/BlazorWebView.JS/upstream/aspnetcore/web.js/package.json
+  detection_source: src/BlazorWebView.JS/upstream/aspnetcore/web.js/package.json
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-01 08:35:36.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/vladdou/TwokaB
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/.github/workflows/coreosx.yml
+  detection_source: ".github/workflows/coreosx.yml"
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-15 09:51:11.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 26.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/src/BlazorWebView.JS/upstream/aspnetcore/web.js/yarn.lock
+  detection_source: src/BlazorWebView.JS/upstream/aspnetcore/web.js/package.json
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-01 08:35:36.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-02-29 22:17:39.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/BlazorWebView.sln
+  detection_source: BlazorWebView.sln
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-01 11:21:41.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.43.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/src/BlazorWebView.JS/package-lock.json
+  detection_source: src/BlazorWebView.JS/package.json
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-04-24 09:19:31.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/src/BlazorWebView.JS/upstream/aspnetcore/web.js/yarn.lock
+  detection_source: src/BlazorWebView.JS/upstream/aspnetcore/web.js/yarn.lock
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-01 08:35:36.000000000 Z
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 16.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/src/BlazorWebView.JS/upstream/aspnetcore/web.js/yarn.lock
+  detection_source: src/BlazorWebView.JS/upstream/aspnetcore/web.js/package.json
+  last_updated_by: jspuij
+  last_updated_on: 2020-05-30 09:47:35.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/src/BlazorWebView.JS/upstream/aspnetcore/web.js/package.json
+  detection_source: src/BlazorWebView.JS/upstream/aspnetcore/web.js/package.json
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-01 08:35:36.000000000 Z
+- name: System.Text.Encodings.Web
+  description: Provides types for encoding and escaping strings for use in JavaScript,
+    HyperText Markup Language
+  package_url: https://www.nuget.org/System.Text.Encodings.Web
+  version: 4.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13209/default_42e87535b59c0cd77a89678c1c4ed24abc143f58.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+  vulnerabilities:
+  - name: ".NET Core Remote Code Execution Vulnerability"
+    cve_id: CVE-2021-26701
+    cve_url: https://github.com/advisories/GHSA-ghhp-997w-qr28
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 4.7.2
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 12.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+  vulnerabilities:
+  - name: 'Duplicate Advisory: Improper Handling of Exceptional Conditions in Newtonsoft.Json'
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-8rfx-6mr3-5jh3
+    detected_date: Jan 4
+    severity: high
+    first_patched: 13.0.1
+  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+    cve_id: CVE-2024-21907
+    cve_url: https://github.com/advisories/GHSA-5crp-9r3c-p9vr
+    detected_date: Jun 23
+    severity: high
+    first_patched: 13.0.1
+- name: Microsoft.AspNetCore.Authorization
+  description: ASP.NET Core authorization classes
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Authorization
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13034/default_1075538f3811f68c42abfdf5ebcf152058e4076d.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.AspNetCore.Components
+  description: Components feature for ASP.NET Core
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Components
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13166/default_b4059c3863f54504d1a911991b5fe93c60e9e43e.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.AspNetCore.Components.Web
+  description: Support for rendering ASP.NET Core components for browsers
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Components.Web
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13128/default_59c6e81d6f4034b10a10bd52ec71c48c8d66e4eb.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.AspNetCore.Hosting.Abstractions
+  description: ASP.NET Core hosting and startup abstractions for web applications
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Hosting.Abstractions
+  version: 2.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12965/default_d871263d8798790404638a4d3692cc70b6389166.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.AspNetCore.Hosting.Server.Abstractions
+  description: ASP.NET Core hosting server abstractions for web applications
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Hosting.Server.Abstractions
+  version: 2.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14118/default_d7d5794851dadbcf90dc060e882cc3b488ce3484.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.AspNetCore.Http.Abstractions
+  description: ASP.NET Core HTTP object model for HTTP requests and responses and
+    also common extension methods for registering middleware in an IApplicationBuilder
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Http.Abstractions
+  version: 2.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12884/default_485731cffe5047176f704e34ccfabc7dc075f3d9.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.AspNetCore.Http.Extensions
+  description: ASP.NET Core common extension methods for HTTP abstractions, HTTP headers,
+    HTTP request/response, and session state
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Http.Extensions
+  version: 2.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13066/default_95e2606719fc91feef06f2410dda6909c1b36e06.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.AspNetCore.Http.Features
+  description: ASP.NET Core HTTP feature interface definitions
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Http.Features
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13120/default_f0c74e534077001eb65a152707758ce46a2dc970.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.AspNetCore.StaticFiles
+  description: ASP.NET Core static files middleware
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.StaticFiles
+  version: 2.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13028/default_a0b0eac5a401515996bd8fc359ffcfbc844cbe90.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Bcl.AsyncInterfaces
+  description: Provides the IAsyncEnumerable&lt;T&gt; and IAsyncDisposable interfaces
+    and helper types for .NET Standard 2.0
+  package_url: https://www.nuget.org/Microsoft.Bcl.AsyncInterfaces
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13612/default_8262e69d511886f07f1af08ca996ce9684bb574b.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.Configuration
+  description: Implementation of key-value pair based configuration for Microsoft.Extensions.Configuration
+  package_url: https://www.nuget.org/Microsoft.Extensions.Configuration
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12856/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.Configuration.Abstractions
+  description: Abstractions of key-value pair based configuration
+  package_url: https://www.nuget.org/Microsoft.Extensions.Configuration.Abstractions
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12885/default_d56a77cbb06d3dae6daef9669108e3e01d2494af.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.Configuration.Binder
+  description: Functionality to bind an object to data in configuration providers
+    for Microsoft.Extensions.Configuration
+  package_url: https://www.nuget.org/Microsoft.Extensions.Configuration.Binder
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12893/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.Configuration.FileExtensions
+  description: Extension methods for configuring file-based configuration providers
+    for Microsoft.Extensions.Configuration
+  package_url: https://www.nuget.org/Microsoft.Extensions.Configuration.FileExtensions
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12936/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.Configuration.Json
+  description: JSON configuration provider implementation for Microsoft.Extensions.Configuration
+  package_url: https://www.nuget.org/Microsoft.Extensions.Configuration.Json
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12865/default_4ea11141d2970a66e9637b71cf054ab66968c217.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.DependencyInjection
+  description: Default implementation of dependency injection for Microsoft.Extensions.DependencyInjection
+  package_url: https://www.nuget.org/Microsoft.Extensions.DependencyInjection
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12846/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.DependencyInjection.Abstractions
+  description: Abstractions for dependency injection
+  package_url: https://www.nuget.org/Microsoft.Extensions.DependencyInjection.Abstractions
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12848/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.FileProviders.Abstractions
+  description: Abstractions of files and directories
+  package_url: https://www.nuget.org/Microsoft.Extensions.FileProviders.Abstractions
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13191/default_81ac985912284073db895b0d26abf3657532a164.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.FileProviders.Physical
+  description: File provider for physical files for Microsoft.Extensions.FileProviders
+  package_url: https://www.nuget.org/Microsoft.Extensions.FileProviders.Physical
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13123/default_81ac985912284073db895b0d26abf3657532a164.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.FileSystemGlobbing
+  description: File system globbing to find files matching a specified pattern
+  package_url: https://www.nuget.org/Microsoft.Extensions.FileSystemGlobbing
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13472/default_eb78542773998d1500f13778aa04738ef49376bd.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.Logging
+  description: Logging infrastructure default implementation for Microsoft.Extensions.Logging
+  package_url: https://www.nuget.org/Microsoft.Extensions.Logging
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12854/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.Logging.Abstractions
+  description: Logging abstractions for Microsoft.Extensions.Logging
+  package_url: https://www.nuget.org/Microsoft.Extensions.Logging.Abstractions
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12853/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.Logging.Console
+  description: Console logger provider implementation for Microsoft.Extensions.Logging
+  package_url: https://www.nuget.org/Microsoft.Extensions.Logging.Console
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12943/default_e7f4dfb8f4634d3de09f6ace4c8d9767d3189c61.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.Options
+  description: Provides a strongly typed way of specifying and accessing settings
+    using dependency injection
+  package_url: https://www.nuget.org/Microsoft.Extensions.Options
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12866/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.Options.ConfigurationExtensions
+  description: Provides additional configuration specific functionality related to
+    Options
+  package_url: https://www.nuget.org/Microsoft.Extensions.Options.ConfigurationExtensions
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12882/default_d56a77cbb06d3dae6daef9669108e3e01d2494af.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.Primitives
+  description: Primitives shared by framework extensions
+  package_url: https://www.nuget.org/Microsoft.Extensions.Primitives
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13043/default_0af6f5844ebd9062a9a4895d909753dc8447f2f3.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Extensions.WebEncoders
+  description: Contains registration and configuration APIs to add the core framework
+    encoders to a dependency injection container
+  package_url: https://www.nuget.org/Microsoft.Extensions.WebEncoders
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13801/default_d358fd76413e7b8cc458411fede039268825f8c2.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.JSInterop
+  description: Abstractions and features for interop between .NET and JavaScript code
+  package_url: https://www.nuget.org/Microsoft.JSInterop
+  version: 3.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15519/default_9e6c5b16645c805765637f65779b2a8071a09c95.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: Microsoft.Net.Http.Headers
+  description: HTTP header parser implementations
+  package_url: https://www.nuget.org/Microsoft.Net.Http.Headers
+  version: 2.2.8
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13250/default_43ce02ab18bb400d4d6b410ac4dc3a50f87e634a.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: StyleCop.Analyzers
+  description: An implementation of StyleCop's rules using Roslyn analyzers and code
+    fixes
+  package_url: https://www.nuget.org/StyleCop.Analyzers
+  version: 1.1.118
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12996/default_971bb108ce002c2032e407a9046135e1542c46c7.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: System.Buffers
+  description: Provides resource pooling of any type for performance-critical applications
+    that allocate and deallocate objects frequently
+  package_url: https://www.nuget.org/System.Buffers
+  version: 4.5.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13038/default_a0b0eac5a401515996bd8fc359ffcfbc844cbe90.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: System.ComponentModel.Annotations
+  description: Provides attributes that are used to define metadata for objects used
+    as data sources
+  package_url: https://www.nuget.org/System.ComponentModel.Annotations
+  version: 4.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12862/default_d56a77cbb06d3dae6daef9669108e3e01d2494af.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: System.IO.Pipelines
+  description: Single producer single consumer byte buffer management
+  package_url: https://www.nuget.org/System.IO.Pipelines
+  version: 4.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13264/default_6134e5c981cbd06883a0ffc7dceb761ee17cfca4.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: System.Memory
+  description: Provides types for efficient representation and pooling of managed
+  package_url: https://www.nuget.org/System.Memory
+  version: 4.5.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12974/default_d871263d8798790404638a4d3692cc70b6389166.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: System.Text.Json
+  description: Provides high-performance and low-allocating types that serialize objects
+    to JavaScript Object Notation
+  package_url: https://www.nuget.org/System.Text.Json
+  version: 4.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13031/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: System.Threading.Tasks.Extensions
+  description: Provides additional types that simplify the work of writing concurrent
+    and asynchronous code
+  package_url: https://www.nuget.org/System.Threading.Tasks.Extensions
+  version: 4.5.4
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12998/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  detection_source: MigrationBackup/71d7c919/sample/BlazorApp.Mac/packages.config
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-03-27 08:31:29.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 25.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/src/BlazorWebView.JS/upstream/aspnetcore/web.js/yarn.lock
+  detection_source: src/BlazorWebView.JS/upstream/aspnetcore/web.js/package.json
+  last_updated_by: jspuij
+  last_updated_on: 2020-05-30 09:47:35.000000000 Z
+- name: "@types/jsdom"
+  description: TypeScript definitions for jsdom
+  package_url: https://www.npmjs.com/@types/jsdom
+  version: 16.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17003/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/src/BlazorWebView.JS/upstream/aspnetcore/web.js/yarn.lock
+  detection_source: src/BlazorWebView.JS/upstream/aspnetcore/web.js/package.json
+  last_updated_by: jspuij
+  last_updated_on: 2020-05-30 09:47:35.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/src/BlazorWebView.JS/upstream/aspnetcore/web.js/yarn.lock
+  detection_source: src/BlazorWebView.JS/upstream/aspnetcore/web.js/package.json
+  last_updated_by: jspuij
+  last_updated_on: 2020-05-30 09:47:35.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 3.0.2
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/src/BlazorWebView.JS/upstream/aspnetcore/web.js/yarn.lock
+  detection_source: src/BlazorWebView.JS/upstream/aspnetcore/web.js/package.json
+  last_updated_by: jspuij
+  last_updated_on: 2020-05-30 09:47:35.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/src/BlazorWebView.JS/package-lock.json
+  detection_source: src/BlazorWebView.JS/upstream/aspnetcore/web.js/package.json
+  last_updated_by: jspuij
+  last_updated_on: 2020-05-30 09:47:35.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 26.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/src/BlazorWebView.JS/upstream/aspnetcore/web.js/yarn.lock
+  detection_source: src/BlazorWebView.JS/upstream/aspnetcore/web.js/package.json
+  last_updated_by: jspuij
+  last_updated_on: 2020-05-30 09:47:35.000000000 Z
+- name: ts-loader
+  description: TypeScript loader for webpack
+  package_url: https://www.npmjs.com/ts-loader
+  version: 7.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/src/BlazorWebView.JS/package-lock.json
+  detection_source: src/BlazorWebView.JS/package.json
+  last_updated_by: jspuij
+  last_updated_on: 2020-05-30 08:24:06.000000000 Z
+- name: tsconfig-paths-webpack-plugin
+  description: Load modules according to tsconfig paths in webpack
+  package_url: https://www.npmjs.com/tsconfig-paths-webpack-plugin
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17311/default_b8b4be8bd54f9619446b80b2bf448c0891101f2a.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/src/BlazorWebView.JS/package-lock.json
+  detection_source: src/BlazorWebView.JS/package.json
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-04-24 09:19:31.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 3.3.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/vladdou/TwokaB/blob/master/src/BlazorWebView.JS/package-lock.json
+  detection_source: src/BlazorWebView.JS/package.json
+  last_updated_by: Jan-Willem Spuij
+  last_updated_on: 2020-04-24 09:19:31.000000000 Z
